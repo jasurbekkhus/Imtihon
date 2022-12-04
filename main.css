@@ -1,0 +1,912 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    
+}
+
+.navbar{
+   
+    border: 1px solid rgba(0, 0, 0, 0.127);
+    height: 30px;
+    background: rgba(128, 128, 128, 0.088);
+}
+.navbar__column{
+    display: flex;
+}
+.navbar__column h3{
+    color: rgb(144, 151, 161);
+    font-weight: 300;
+    font-size: 12px;
+    padding: 7px 18px;
+}
+.navbar__column h2{
+    font-size: 12px;
+    padding: 7px 13px;
+}
+.navbar__column img{
+    width: 27px;
+    height: 25px;
+    border-radius: 15px 15px 15px 15px;
+    margin: 1px -5px;
+}
+.navbar1{
+    height: 80px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.112);
+    cursor: pointer;
+}
+.navbar1__img img{
+    width: 220px;
+    padding: 20px 15px;
+}
+.navbar1__search{
+    width: 66%;
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid rgba(168, 140, 140, 0.547);
+    margin: 23px 10px;
+    background: rgba(128, 128, 128, 0.088);
+}
+.navbar1__search h2{
+    color: rgb(144, 151, 161);
+    font-size: 17px;
+    font-weight: 200;
+    padding: 7px 9px;
+}
+.navbar1__searchh{
+    width: 40px;
+    height: 35px;
+    background: red;
+    border-radius: 0 5px  5px 0;
+    margin: 23px -10px;
+}
+.navbar1__searchh i{
+    color: #fff;
+    font-size: 23px;
+    margin: 7px 9px;
+}
+.navbar__icon{
+    margin: 24px;
+}
+.navbar__icon i{
+     font-size: 27px;
+     margin-left: 15px;
+}
+.navbar__iconn{
+    font-size: 27px;
+    margin: 24px 0;
+}
+.navbar__iconn i{
+    margin-left: 40px;
+}
+.navbar__collection{
+    display: flex;
+    list-style: none;
+    margin: -1px -9px;
+    font-size: 13px;
+}
+.item{
+    margin-left: 20px ;
+}
+.navbar__icon h4{
+    font-weight: 300;
+    margin-left: 15px;
+}
+.navbar__iconn h4{
+    font-weight: 300;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+
+
+
+.navbar2{
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    display: flex;
+    
+}
+.navbar2 p{
+   font-size: 14px;
+   font-weight: 500;
+   margin-left: 60px;
+}
+.navbar2 hr{
+    margin-left: 60px;
+}
+.hrr{
+    display: flex;
+    margin: 8px -40px;
+}
+.h{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+
+
+.picture{
+    width: 92%;
+    height: 77vh;
+    background: url(./ja.jpg) no-repeat center/cover;
+    margin: auto;
+}
+.picture img{
+    margin: -117px 322px;
+}
+.jas{
+    text-align: center;
+    margin: 40px 0;
+}
+.picturee{
+    width: 100%;
+   
+}
+.jasu{
+    display: flex;
+}
+.picturee__card{
+    width: 210px;
+    height: 200px;
+    background: rgba(234, 238, 241, 0.347);
+    margin: 0 85px;
+}
+.picturee__card img{
+    width: 200px;
+}
+.picturee__card1{
+    margin: 0 -57px;
+}
+.picturee__card1 img{
+    width: 200px;
+}
+.img{
+    margin: 0 -200px;
+}
+.picturee__card2{
+    margin: 0 284px;
+}
+.picturee__card2 img{
+    width: 200px;
+}
+.picturee__card3{
+    margin: 0 -60px;
+}
+.picturee__card3 img{
+    width: 200px;
+}
+.picturee__card4{
+    margin: 0 285px;
+}
+.picturee__card4 img{
+    width: 200px;
+}
+.picturee__card5{
+    margin: 0 -60px;
+}
+.picturee__card5 img{
+    width: 200px;
+}
+.text{
+    margin: 10px 120px;
+}
+.tex{
+    display: flex;
+}
+.text1{
+    margin: 10px -10px;
+}
+.text2{
+    margin: 10px 115px;
+}
+.text3{
+    margin: 10px  -50px;
+}
+.text4{
+    margin: 10px 150px;
+}
+.text5{
+    margin: 10px -80px;
+}
+
+
+.writting{
+    margin: 60px 0;
+}
+.writting h1{
+    text-align: center;
+}
+.gallary{
+    display: flex;
+}
+.gallary1{
+    display: flex;
+}
+.gallary2{
+    display: flex;
+}
+.nik{
+    margin: 20px 80px;
+}
+.foto1{
+    margin:  20px -75px;
+}
+.foto2{
+    margin: 20px 80px;
+}
+.foto3{
+    margin: 0  80px;
+}
+.foto4{
+    margin: 0 -70px;
+}
+.foto5{
+    margin: 0 80px;
+}
+.foto6{
+    margin: 0 80px;
+}
+.foto7{
+    margin: 0 -70px;
+}
+.foto8{
+    margin: 0 80px;
+}
+.surr{
+    width: 90%;
+    margin: 60px 77px;
+    background: url(./yas.jpg) no-repeat center/cover;
+}
+.surr img{
+    width: 100%;
+    height: 100vh;
+    margin: -90px 0;
+   
+}
+
+.device{
+
+}
+.device h1{
+    text-align: center;
+}
+.dev{
+    display: flex;
+}
+.develop{
+    margin: 30px 80px;
+}
+.develop img{
+    width: 220px;
+}
+.develop1 img{
+    width: 220px;
+    margin: 30px -60px;
+}
+.develop2 img{
+    width: 220px;
+    margin: 30px 70px;
+}
+.develop3 img{
+    width: 220px;
+    margin: 30px -60px;
+}
+.develop4 img{
+    width: 220px;
+    margin: 30px 80px;
+}
+.develop5 img{
+    width: 220px;
+    margin: 30px -70px;
+}
+.matn{
+    display: flex;
+    margin: -20px 150px;
+}
+.matn h4{
+    font-size: 19px;
+    font-weight: 100;
+}
+.eg2{
+    margin-left: 160px;
+}
+.eg3{
+    margin-left: 150px;
+}
+.eg4{
+    margin-left: 140px;
+}
+.eg5{
+    margin-left: 105px;
+}
+.eg6{
+    margin-left: 90px;
+}
+.hakker__hak{
+    display: flex;
+}
+.hakker__ha img{
+    width: 220px;
+    margin: 60px 80px;
+}
+.hakker__ha1 img{
+    width: 220px;
+    margin: 60px -60px;
+}
+.hakker__ha2 img{
+    width: 220px;
+    margin: 60px 80px;
+}
+.hakker__ha3 img{
+    width: 220px;
+    margin: 60px -70px;
+}
+.hakker__ha4 img{
+    width: 220px;
+    margin: 60px 90px;
+}
+.hakker__ha5 img{
+    width: 195px;
+    margin: 70px -75px;
+}
+.habar{
+    display: flex;
+    margin: -40px 150px;
+}
+.habar h4{
+    font-size: 19px;
+    font-weight: 100;
+}
+.egg{
+    margin-left: 130px;
+}
+.egg1{
+    margin-left: 125px;
+}
+.egg2{
+    margin-left: 150px;
+}
+.egg3{
+    margin-left: 170px;
+}
+.egg4{
+    position: absolute;
+    margin-left: 76%;
+}
+
+
+
+.cardd{
+    margin: 100px;
+}
+.cardd h1{
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 70vh;
+    border: 8px solid rgba(24, 105, 187, 0.256);
+    margin: 30px auto;
+    box-shadow: 4px 5px 10px 10px rgba(100, 148, 237, 0.522);
+    display: flex;
+    overflow: auto;
+  }
+  
+  .card {
+    width: 330px;
+    min-width: 330px;
+    height: 330px;
+    margin: 10px;
+   
+  }
+  .card img{
+    width: 328px;
+  }
+  .bars{
+    width: 328px;
+    height: 105px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -19px 0;
+  }
+  .bars h1{
+    font-size: 25px;
+    margin: 15px 0;
+    margin-right: 160px;
+  }
+  .bars p{
+    margin: 0 20px; 
+  }
+  .bars1{
+    width: 329px;
+    height: 105px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -19px 0;
+  }
+  .bars1 h1{
+    font-size: 25px;
+    margin: 15px 0;
+    margin-right: 60px;
+  }
+  .bars1 p{
+    margin: 0 20px; 
+  }
+
+  .bars2{
+    width: 329px;
+    height: 105px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -19px 0;
+  }
+  .bars2 h1{
+    font-size: 25px;
+    margin: 15px 0;
+    margin-right: 90px;
+  }
+  .bars2 p{
+    margin: 0 30px; 
+  }
+
+  .bars3{
+    width: 329px;
+    height: 105px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -19px 0;
+  }
+  .bars3 h1{
+    font-size: 25px;
+    margin: 15px 0;
+    margin-right: 140px;
+  }
+  .bars3 p{
+    margin: 0 30px; 
+  }
+
+  .bars4{
+    width: 329px;
+    height: 105px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -19px 0;
+  }
+  .bars4 h1{
+    font-size: 25px;
+    margin: 15px 0;
+    margin-right: 110px;
+  }
+  .bars4 p{
+    margin: 0 30px; 
+  }
+
+.big{
+    margin: 300px 0;
+}
+.big img{
+    width: 90%;
+    margin: -350px 76px;
+}
+
+
+.neww{
+    width: 90%;
+    height: 9.6cm;
+    background: url(./devc.jpg) no-repeat center/cover;
+    margin: 400px 76px;
+}
+.neww__newe img{
+    width: 100%;
+    margin: 28px 0;
+}
+.carch{
+   margin: -350px 0;
+}
+.carch H1{
+    text-align: center;
+}
+.coarch{
+    display: flex;
+    margin: 20px 68px ;
+
+     
+}
+ 
+.card1 {
+    width: 330px;
+    min-width: 330px;
+    height: 330px;
+    margin: 10px;
+   
+  }
+  .card1 img{
+    width: 328px;
+  }
+  .card1 h5{
+    color: #fff;
+    position: absolute;
+    margin: 19.8% 240px;
+    font-weight: 100;
+  }
+  .barss{
+    width: 328px;
+    height: 92px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -19px 0;
+  }
+  .barss h1{
+    font-size: 15px;
+    padding: 25px 0;
+   
+  }
+  .barss p{
+    margin: -20px 115px; 
+    width: 40%;
+  }
+  .barss span{
+
+    margin: 0 -8px;
+  }
+  .barss1{
+    width: 329px;
+    height: 92px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -19px 0;
+  }
+  .barss1 h1{
+    font-size: 15px;
+    padding: 25px 0;
+  }
+  .barss1 p{
+    margin: -20px 75px; 
+    width: 70%;
+  }
+  .barss1 p span{
+    margin: 0 30px;
+  }
+
+  .barss2{
+    width: 329px;
+    height: 92px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -19px 0;
+  }
+  .barss2 h1{
+    font-size: 15px;
+    padding: 25px 0;
+  }
+  .barss2 p{
+    margin: -20px 105px; 
+    width: 50%;
+  }
+  .barss2 span{
+    margin: -13px;
+  }
+  .barss3{
+    width: 329px;
+    height: 90px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -19px 0;
+  }
+  .barss3 h1{
+    font-size: 15px;
+    padding: 25px 0;
+  }
+  .barss3 p{
+    margin: -20px 80px; 
+    width: 60%;
+  }
+  .barss3 span{
+    margin: 0 60px;
+  }
+
+
+.big__card{
+    margin: 130px 0;
+}
+.big__card h1{
+    text-align: center;
+}
+.biggest__card{
+    display: flex;
+    margin: 0 70px ;
+}
+
+
+
+  .barss h1{
+    font-size: 15px;
+    padding: 25px 0;
+   
+  }
+ 
+  .bar{
+    width: 440px;
+    height: 103px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -24px 0;
+  }
+  .bar h1{
+    font-size: 26px;
+    padding: 15px 0px;
+    padding-right: 270px;
+  }
+  .bar p{
+    margin: -10px 20px; 
+    width: 90%;
+  }
+  
+  .card5{
+    width: 100%;
+    
+    height: 330px;
+    margin: 10px;
+   
+  }
+  .card5 img{
+    width: 440px;
+    margin: 20px 0;
+  }
+
+  .bar5{
+    width: 440px;
+    height: 103px;
+    background: rgba(224, 227, 230, 0.566);
+    margin: -24px 0;
+  }
+  .bar5 h1{
+    font-size: 26px;
+    padding: 15px 0px;
+    padding-right: 140px;
+}
+  .bar5 p{
+    margin: -10px 20px; 
+    width: 90%;
+}
+
+.bts{
+    width: 170px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.792);
+    margin: 270px 44.4%;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.cardt{
+    width: 100%;
+    height: 100vh;
+} 
+.cardt h1{
+    text-align: center;
+    margin: -320px 0;
+}
+.cars{
+    display: flex;
+    margin: 350px 70px;
+}
+.mugs{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs h3{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 190px;
+}
+.mugs h2{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 180px;
+}
+.mugs h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 5px;
+}
+.mugss{
+    position: absolute;
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 61.4%;
+}
+.mugss h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 135px;
+}
+.cardtt{
+    margin: -21.7% 0;
+}
+.gogosha{
+    margin: -61% 0;
+}
+.mugs1{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs1 h3{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 170px;
+}
+.mugs2{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs2 h2{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 140px;
+}
+.mugs3{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs3 h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 185px;
+}
+.mugs4{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs4 h3{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 180px;
+}
+.mugs5{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs5 h2{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 160px;
+}
+.mugs6{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs6 h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 180px;
+}
+.mugs7{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs7 h3{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 158px;
+}
+.mugs8{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs8 h2{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 135px;
+}
+.mugs9{
+    width: 440px;
+    height: 50px;
+    background: rgba(222, 226, 229, 0.358);
+    margin: 0 10px;
+}
+.mugs9 h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 14px 170px;
+}
+.cardt hr{
+    margin: -320px 0;
+}
+
+
+
+.foo{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background: rgb(94, 92, 92);
+    margin: 333px 0;
+    display: flex;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.829);
+    margin: 51.4% 0;
+}
+.foot{
+    padding: 80px 0;
+}
+.foo h4{
+    font-size: 15px;
+    color: #fff;
+    margin: 15px 120px;
+    width: 80%;
+}
+.foo h5{
+    margin: 20px 120px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 200;
+    width: 50%;
+}
+.foot1{
+    margin: 80px 0;
+}
+.foot1 h4{
+    width: 80%;
+}
+.foot2{
+    margin: 80px 0;
+}
+.foot2 h4{
+    width: 70%;
+}
+.footer{
+    display: flex;
+}
+.footer h5{
+    margin: 60px 100px;
+    color: #fff;
+    width: 20.3%;
+    font-weight: 100;
+}
+.collection{
+    width: 30%;
+    position: absolute;
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    margin: 65px 65%;
+}
+.itemm{
+    color: #fff;
+    margin-left: 20px;
+}
+.collection img{
+    width: 30px;
+    height: 20px;
+ 
+}
+
+
+
+
+
+
+
+
